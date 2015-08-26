@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    tools:context="com.barname_nevis.opticalillusions.MainActivity"
+    android:background="#ff96dfff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:background="#ff635bff"
+
+        >
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/app_name"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            android:textSize="35sp"
+            android:id="@+id/action_bar_title" />
+    </RelativeLayout>
+
+    <Button
+        android:background="@drawable/red_button"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/picture_main"
+        android:id="@+id/button_pics"
+        android:layout_gravity="center_horizontal"
+        style="@style/button_text"
+        android:layout_weight="1" />
+
+
+    <Button
+        android:background="@drawable/red_button"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/setting"
+        android:id="@+id/button_setting"
+        android:layout_gravity="center_horizontal"
+        style="@style/button_text"
+        android:layout_weight="1" />
+    <Button
+        android:background="@drawable/red_button"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/about"
+        android:id="@+id/button_about"
+        android:layout_gravity="center_horizontal"
+        style="@style/button_text"
+        android:layout_weight="1" />
+
+
+</LinearLayout>

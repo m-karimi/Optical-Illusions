@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">خطای دید</string>
+    <string name="picture_main">عکس های ثابت</string>
+    <string name="fav_main">علاقه مندی ها</string>
+    <string name="setting">تنظیمات</string>
+    <string name="about">درباره برنامه</string>
+    <string name="gif_main">عکس های متحرک</string>
+    <string name="choose_font">انتخاب فونت:</string>
+    <string name="kamran_font">کامران</string>
+    <string name="koodak_font">کودک</string>
+    <string name="yekan_font">یکان</string>
+    <string name="save_setting">ذخیره تنظیمات</string>
+    <color name="black">#000000</color>
+
+
+</resources>
